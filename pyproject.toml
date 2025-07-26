@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "web-crawler-scrapy"
+version = "1.0.0"
+description = "A web crawler built with Scrapy for crawling websites and processing documents"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.7"
+dependencies = [
+    "scrapy>=2.11.0",
+    "requests>=2.31.0",
+    "PyPDF2>=3.0.1",
+    "pdfplumber>=0.10.0",
+    "python-docx>=0.8.11",
+    "openpyxl>=3.1.2",
+    "beautifulsoup4>=4.12.2",
+    "lxml>=4.9.3",
+    "fake-useragent>=1.4.0",
+    "python-pptx>=0.6.21",
+]
+
+[tool.setuptools]
+packages = ["webcrawler", "utils"]
