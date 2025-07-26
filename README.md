@@ -1,6 +1,11 @@
-# Web Crawler with Scrapy
+# 🕷️ Advanced Web Crawler with Scrapy
 
-A comprehensive web crawler built with Scrapy that can crawl websites, extract data from documents (PDFs, Word docs, Excel files, etc.), and traverse all links recursively.
+[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/downloads/)
+[![Scrapy](https://img.shields.io/badge/Scrapy-2.11+-green.svg)](https://scrapy.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub](https://img.shields.io/badge/GitHub-singhmanav/AdvancedWebCrawler-blue.svg)](https://github.com/singhmanav/AdvancedWebCrawler)
+
+A comprehensive, production-ready web crawler built with Scrapy that can crawl websites, extract data from various document types (PDFs, Word docs, Excel files, etc.), and traverse links recursively with intelligent rate limiting and content processing.
 
 ## Features
 

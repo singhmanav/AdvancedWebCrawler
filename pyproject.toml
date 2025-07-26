@@ -3,11 +3,17 @@ requires = ["setuptools>=45", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "web-crawler-scrapy"
+name = "advanced-web-crawler"
 version = "1.0.0"
-description = "A web crawler built with Scrapy for crawling websites and processing documents"
+description = "Advanced web crawler built with Scrapy for crawling websites and processing documents"
 readme = "README.md"
 license = {text = "MIT"}
+authors = [
+    {name = "Manav Singh", email = "singhmanav@example.com"}
+]
+homepage = "https://github.com/singhmanav/AdvancedWebCrawler"
+repository = "https://github.com/singhmanav/AdvancedWebCrawler"
+documentation = "https://github.com/singhmanav/AdvancedWebCrawler#readme"
 requires-python = ">=3.7"
 dependencies = [
     "scrapy>=2.11.0",
