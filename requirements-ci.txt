@@ -1,3 +1,6 @@
+# Minimal requirements for CI testing
+# Core dependencies with relaxed version constraints
+
 scrapy>=2.5.0
 requests>=2.25.0
 PyPDF2>=2.0.0
@@ -6,9 +9,10 @@ python-docx>=0.8.10
 openpyxl>=3.0.0
 beautifulsoup4>=4.9.0
 lxml>=4.6.0
-selenium>=4.0.0
 fake-useragent>=1.1.0
 urllib3>=1.26.0
 chardet>=4.0.0
-python-magic>=0.4.24
+
+# Optional dependencies for CI
 python-pptx>=0.6.18
+selenium>=4.0.0
